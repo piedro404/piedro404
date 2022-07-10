@@ -1,5 +1,6 @@
-### Oii! Eu sou Pedro Henrique e bem vindo a minha conta do GitHub!!! 👋😎
-<hr>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f31d0e&height=180&section=header&text=Piedro404&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Pedro+Henrique+Martins+Borges;I'm+17+years+old;I+from+São+Raimundo+das+Mangabeiras,+MA;I+study+development+at+Unibalsas;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
 <div align="center">
   <a href="https://github.com/piedro404">
@@ -27,6 +28,15 @@
   <a href="https://twitter.com/piedrocraft" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
   <a href = "pedro.henrique.martins404@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/---" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  
+  ![Snake animation](https://github.com/piedro404/piedro404/blob/output/github-contribution-grid-snake.svg)
 </div>
 
-  ![Snake animation](https://github.com/piedro404/piedro404/blob/output/github-contribution-grid-snake.svg)
+  
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{piedro404}/count.svg" /></p> 
+<br></div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f31d0e&height=120&section=footer"/>
+
