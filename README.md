@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f31d0e&height=180&section=header&text=Piedro404&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Pedro+Henrique+Martins+Borges;I'm+17+years+old;I+from+São+Raimundo+das+Mangabeiras,+MA;I+study+development+at+Unibalsas;Be+Welcome!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Pedro+Henrique+Martins+Borges;I'm+18+years+old;I+from+São+Raimundo+das+Mangabeiras,+MA;I+study+development+at+Unibalsas;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -12,7 +12,7 @@
   <img align="center" alt="Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
   <img align="center" alt="Lua" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-original.svg">
   <img align="center" alt="C#" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="right" alt="pic" height="150" style="border-radius:50px;"  src="https://i.ibb.co/n1bqrWx/download20220700114815.png">
+  <img align="right" alt="pic" height="150" style="border-radius:50px;"  src="[https://i.ibb.co/n1bqrWx/download20220700114815.png](https://i.ibb.co/cxbRX3c/profile-pic-1.png)">
 </div>
 
 <hr>
