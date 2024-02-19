@@ -4,8 +4,8 @@
 
 <div align="center">
   <a href="https://github.com/piedro404">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=piedro404&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=piedro404&layout=compact&langs_count=7&theme=radical"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=piedro404&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=piedro404&layout=compact&langs_count=7&theme=react"/>
 </div>
 
 <div style="display: inline_block"><br>
@@ -32,7 +32,6 @@
 
 <br><br>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Piedro404&bg_color=141321&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Piedro404&bg_color=20232A&color=57BCDA&line=57BCDA&point=0b7e9e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f31d0e&height=120&section=footer"/>
-
