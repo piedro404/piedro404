@@ -9,7 +9,7 @@
   </div>
   <div style="flex: 1; flex-direction: row; width: 100%">
     <img height="180em" src="https://streak-stats.demolab.com/?user=piedro404&count_private=false&theme=react"/>
-    <img height="180em" src="https://bee-stats.vercel.app/stats/385161"/>
+    <a href="https://github.com/piedro404/bee-stats"><img height="180em" src="https://bee-stats.vercel.app/stats/385161"/></a>
   </div>
 </div>
 
