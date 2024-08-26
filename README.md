@@ -57,4 +57,10 @@
   <picture><img src = "https://github.com/user-attachments/assets/8a24d79f-a164-4983-a32f-0741863f4af1" width = 50px></picture>
 </div>
 
+<br/>
+
+<div align="center">
+    <picture><img src = "https://github.com/user-attachments/assets/bf1eeed3-8ed2-4fed-8763-ec74ae6ce3e3" width = 100px></picture>
+</div>
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=57BCDA&height=120&section=footer"/>
