@@ -306,7 +306,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee bounding behind, a Murkrow crosses the full moon, fireflies and shooting stars">
+  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee bounding behind, while Zoroark crosses the grass, Gastly floats by, Hoothoot perches on the sign, Oddish hides in the grass and a Murkrow crosses the full moon">
   <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight! Thanks for visiting, trainer.</i></sub>
   <br><sub><sub>Walk sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
 </p>
