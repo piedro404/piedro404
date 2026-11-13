@@ -27,6 +27,11 @@
   <img src="./assets/trainer-card.svg" alt="Trainer card: Piedro, No. 404, Dark / Back-End type, Lv. 50 Mid-Level. Ability: Synchronize. Hidden ability: Inner Focus." width="100%">
 </p>
 
+<p align="center">
+  <img src="./assets/route-404.gif" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee under a full moon, fireflies and shooting stars">
+  <br><sub><i>Route 404 · night shift</i></sub>
+</p>
+
 <p align="center"><img src="./assets/dividers/roll.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="32" align="center"> Pokédex entry
