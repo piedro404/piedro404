@@ -1,7 +1,7 @@
 <!-- ============================================================
      🌙  piedro404 — Dark-type Back-End Developer
      Theme: Umbreon (#197) · night #050812 · ring #F5C518 · eyes #E3263B
-     Sprites: PokeAPI/sprites · Type icons: duiker101/pokemon-type-svg-icons
+     Sprites: PokeAPI/sprites · 3D models: Cobblemon (via cobblemon.tools) · Type icons: duiker101/pokemon-type-svg-icons
      Pokémon © Nintendo / Game Freak / The Pokémon Company — fan tribute.
      ============================================================ -->
 
@@ -27,15 +27,16 @@
   <img src="./assets/trainer-card.svg" alt="Trainer card: Piedro, No. 404, Dark / Back-End type, Lv. 50 Mid-Level. Ability: Synchronize. Hidden ability: Inner Focus." width="100%">
 </p>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/roll.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="32" align="center"> Pokédex entry
 
 <table>
   <tr>
     <td width="150" align="center">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" height="56" alt="Eevee">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/197.gif" height="64" alt="Shiny Umbreon">
+      <img src="./assets/cobblemon/umbreon.png" width="110" alt="Umbreon (Cobblemon model)"><br>
+      <img src="./assets/cobblemon/eevee.png" width="44" alt="Eevee (Cobblemon model)">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/197.gif" height="40" alt="Shiny Umbreon">
       <br><sub><b>No. 404 · PIEDRO</b></sub><br>
       <img src="./assets/types/dark.svg" height="20" alt="Dark">
     </td>
@@ -51,7 +52,7 @@
   </tr>
 </table>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/rings.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-dark.png" width="32" align="center"> Signature moves
 
@@ -81,7 +82,7 @@
   </tr>
 </table>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/catch.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png" width="32" align="center"> Eeveelution stack
 
@@ -164,58 +165,85 @@
   <img src="https://skillicons.dev/icons?i=git,github,linux,arch,vscode,postman,vercel&theme=dark" alt="Git, GitHub, Linux, Arch, VS Code, Postman, Vercel">
 </p>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/paws.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" width="32" align="center"> My party
 
 <table>
   <tr>
+    <td colspan="2">
+      <img align="right" src="./assets/seediq-pipeline.gif" width="230" alt="SeedIQ computer-vision pipeline: original, grayscale, blur, threshold, morphology, erosion, detected grains">
+      <img src="./assets/cobblemon/bulbasaur.png" width="64" align="left" alt="Bulbasaur, the Seed Pokémon (Cobblemon model)">
+      <sub><b>LEAD · THE SEED POKÉMON</b></sub><br>
+      <b><a href="https://github.com/CyberNomads404/SeedIQ">SeedIQ</a></b><br>
+      <img src="./assets/types/grass.svg" height="18" alt="Grass"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
+      <br clear="left">
+      <p>A full ecosystem for <b>grain classification by image</b> (corn, soy…). A field operator snaps a photo in the app, the central API queues a job, and a computer-vision service counts good, burnt, green and small grains in seconds.</p>
+      <table>
+        <tr><td><a href="https://github.com/CyberNomads404/SeedIQ"><b>Panel + Central API</b></a></td><td><img src="https://skillicons.dev/icons?i=laravel,react,mysql,docker&theme=dark" height="26" alt="Laravel, React, MySQL, Docker"></td></tr>
+        <tr><td><a href="https://github.com/CyberNomads404/SeedIQ-AI"><b>Classification AI</b></a></td><td><img src="https://skillicons.dev/icons?i=python,opencv,redis,docker&theme=dark" height="26" alt="Python, OpenCV, Redis, Docker"> <sub>+ Celery</sub></td></tr>
+        <tr><td><a href="https://github.com/CyberNomads404/seediq_app"><b>Field App</b></a></td><td><img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio&theme=dark" height="26" alt="Flutter, Dart, Android"> <sub>+ Riverpod</sub></td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
+      <img align="right" src="./assets/cobblemon/porygon.png" width="76" alt="Porygon, the Virtual Pokémon made of code (Cobblemon model)">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/dino-neural-ts">Dino Neural</a></b><br>
+      <img src="./assets/types/rock.svg" height="18" alt="Rock"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
+      <sub>TypeScript · neural network from scratch</sub>
+      <p>A neural network learning to play the runner-dino game on its own: entities, physics and the brain, all hand-written in TypeScript.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img align="right" src="./assets/cobblemon/gengar.png" width="76" alt="Gengar, hides in the shadows (Cobblemon model)">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/hide-and-seek-neural-ts">Hide &amp; Seek Neural</a></b><br>
+      <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
+      <sub>TypeScript · Vite · neural agents</sub>
+      <p>A hide-and-seek arena where trained agents use a vision system, bushes and scoring to learn when to hide and when to hunt.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img align="right" src="./assets/cobblemon/alakazam.png" width="76" alt="Alakazam, IQ of 5000 (Cobblemon model)">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/resolucoes-de-problemas">resolucoes-de-problemas</a></b><br>
+      <img src="./assets/types/fighting.svg" height="18" alt="Fighting"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
+      <sub>Python · Beecrowd · Codeforces</sub>
+      <p>My competitive-programming training ground: the solutions behind four years of ICPC Honorable Mentions.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img align="right" src="./assets/cobblemon/pikachu.png" width="76" alt="Pikachu (Cobblemon model)">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/vecomigo-backend">VeComigo</a></b><br>
       <img src="./assets/types/electric.svg" height="18" alt="Electric"><br>
       <sub>Node · TypeScript · Socket.IO · React</sub>
       <p>Real-time rooms over WebSockets: the server pushes events to every client in a room, no polling. Front and back deployed separately.</p>
     </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/bee-stats">Bee Stats</a></b><br>
-      <img src="./assets/types/bug.svg" height="18" alt="Bug"><br>
-      <sub>Node · Express · Puppeteer</sub>
-      <p>Scrapes a Beecrowd profile and serves it as a dynamic SVG card you can embed in any README.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/dino-neural-ts">Dino Neural</a></b> & <b><a href="https://github.com/piedro404/hide-and-seek-neural-ts">Hide & Seek Neural</a></b><br>
-      <img src="./assets/types/rock.svg" height="18" alt="Rock"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
-      <sub>TypeScript · neural networks</sub>
-      <p>Neural nets written from scratch in TypeScript, learning to play games: the runner dino and a hide-and-seek arena with agent vision.</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/flask-structure">flask-structure</a></b><br>
-      <img src="./assets/types/grass.svg" height="18" alt="Grass"><br>
-      <sub>Python · Flask · Swagger · <a href="https://pypi.org/project/flask-structure/">on PyPI</a></sub>
-      <p>A published Python package that scaffolds a ready-to-go Flask API structure in one command.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/ub-task-api">UB Task</a></b> <sub>(<a href="https://github.com/piedro404/ub-task-extension">extension</a> · <a href="https://github.com/piedro404/ub-tarefas-app">app</a>)</sub><br>
-      <img src="./assets/types/fairy.svg" height="18" alt="Fairy"><br>
-      <sub>Python · Flask · JavaScript · TypeScript</sub>
-      <p>An API + browser extension + app that fetch and organize Unibalsas coursework, so classmates never miss a deadline.</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/organize-api-startup">Organize API</a></b><br>
-      <img src="./assets/types/steel.svg" height="18" alt="Steel"><br>
-      <sub>Node · TypeScript · Prisma · Docker · JWT · Zod</sub>
-      <p>Task and user management API with auth, validation and file storage on S3-compatible buckets.</p>
-    </td>
   </tr>
 </table>
 
-<p align="center"><sub><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png" width="22" align="center"> Training ground: <a href="https://github.com/piedro404/resolucoes-de-problemas">resolucoes-de-problemas</a>, competitive-programming solutions (Beecrowd & Codeforces)</sub></p>
+<details>
+  <summary><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-radar.png" width="22" align="center"> <b>Someone's PC</b> <sub>· more projects in the box</sub></summary>
+  <br>
+  <table>
+    <tr>
+      <td align="center" width="80"><img src="./assets/cobblemon/ekans.png" width="56" alt="Ekans"></td>
+      <td><b><a href="https://github.com/piedro404/flask-structure">flask-structure</a></b> <img src="./assets/types/grass.svg" height="16" alt="Grass"><br><sub>Published on <a href="https://pypi.org/project/flask-structure/">PyPI</a>: scaffolds a ready-to-go Flask API structure in one command.</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./assets/cobblemon/combee.png" width="56" alt="Combee"></td>
+      <td><b><a href="https://github.com/piedro404/bee-stats">Bee Stats</a></b> <img src="./assets/types/bug.svg" height="16" alt="Bug"><br><sub>Puppeteer + Express service that turns a Beecrowd profile into an embeddable SVG card.</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/196.gif" height="48" alt="Espeon"></td>
+      <td><b><a href="https://github.com/piedro404/ub-task-api">UB Task</a></b> <sub>(<a href="https://github.com/piedro404/ub-task-extension">extension</a> · <a href="https://github.com/piedro404/ub-tarefas-app">app</a>)</sub> <img src="./assets/types/fairy.svg" height="16" alt="Fairy"><br><sub>API + browser extension + app that organize Unibalsas coursework so classmates never miss a deadline.</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/82.gif" height="48" alt="Magneton"></td>
+      <td><b><a href="https://github.com/piedro404/organize-api-startup">Organize API</a></b> <img src="./assets/types/steel.svg" height="16" alt="Steel"><br><sub>Node + TypeScript + Prisma + Docker API with JWT auth, Zod validation and S3-compatible storage.</sub></td>
+    </tr>
+  </table>
+</details>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/moon.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-candy.png" width="32" align="center"> Evolution line
 
@@ -230,7 +258,7 @@
 
 <p align="center"><sub><i>What? EEVEE is evolving! Eevee evolves into Umbreon when leveled up at night with high friendship.<br>Turns out that's also how back-end devs are made: late nights and a great team.</i></sub></p>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/bounce.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/badges/16.png" width="28" align="center"> Badge case
 
@@ -253,7 +281,7 @@
   </tr>
 </table>
 
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+<p align="center"><img src="./assets/dividers/master.svg" width="100%" alt=""></p>
 
 ## <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png" width="32" align="center"> Battle stats
 
