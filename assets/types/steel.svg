@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="26" viewBox="0 0 87 26" role="img" aria-label="STEEL type">
+<title>STEEL</title>
+<rect width="87" height="26" rx="13" fill="#B7B7CE"/>
+<rect width="87" height="26" rx="13" fill="url(#g)"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<circle cx="13" cy="13" r="10" fill="#000" fill-opacity=".22"/>
+<svg x="6.5" y="6.5" width="13" height="13" viewBox="0 0 512 512">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.0511107 254.527C-0.0170046 254.411 -0.0170388 254.267 0.0510196 254.15L128.795 34.1843C128.862 34.0702 128.985 34 129.117 34H384.294C384.427 34 384.55 34.0708 384.617 34.1859L511.949 254.152C512.016 254.267 512.016 254.41 511.949 254.525L384.617 474.244C384.55 474.359 384.427 474.43 384.294 474.43H129.117C128.985 474.43 128.862 474.36 128.795 474.246L0.0511107 254.527ZM374.617 254.215C374.617 319.703 321.528 372.792 256.04 372.792C190.552 372.792 137.463 319.703 137.463 254.215C137.463 188.726 190.552 135.638 256.04 135.638C321.528 135.638 374.617 188.726 374.617 254.215Z" fill="white"/>
+</svg>
+<text x="30" y="17.3" fill="#fff" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing="1.2" style="paint-order:stroke" stroke="#000" stroke-opacity=".25" stroke-width="2">STEEL</text>
+</svg>

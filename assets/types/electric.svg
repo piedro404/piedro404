@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="26" viewBox="0 0 112 26" role="img" aria-label="ELECTRIC type">
+<title>ELECTRIC</title>
+<rect width="112" height="26" rx="13" fill="#F7D02C"/>
+<rect width="112" height="26" rx="13" fill="url(#g)"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<circle cx="13" cy="13" r="10" fill="#000" fill-opacity=".22"/>
+<svg x="6.5" y="6.5" width="13" height="13" viewBox="0 0 512 512">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M152.56 0.583659C152.461 0.29796 152.674 0 152.976 0H332.805C332.998 0 333.169 0.125587 333.226 0.309782L415.824 267.171C415.911 267.454 415.7 267.741 415.403 267.741H295.684C295.538 267.741 295.433 267.88 295.473 268.021L364.135 509.726C364.269 510.195 363.654 510.501 363.361 510.111L96.5295 155.267C96.3115 154.977 96.5184 154.563 96.881 154.563H205.536C205.687 154.563 205.793 154.414 205.743 154.271L152.56 0.583659Z" fill="white"/>
+</svg>
+<text x="30" y="17.3" fill="#fff" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing="1.2" style="paint-order:stroke" stroke="#000" stroke-opacity=".25" stroke-width="2">ELECTRIC</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="34" viewBox="0 0 880 34" role="img" aria-label="divider">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#F5C518" stop-opacity="0"/><stop offset=".5" stop-color="#F5C518" stop-opacity=".55"/><stop offset="1" stop-color="#F5C518" stop-opacity="0"/></linearGradient></defs>
+<style>
+ .roll{animation:roll 7s cubic-bezier(.45,.05,.55,.95) infinite alternate}
+ .spin{transform-box:fill-box;transform-origin:center;animation:spin 7s cubic-bezier(.45,.05,.55,.95) infinite alternate}
+ @keyframes roll{from{transform:translateX(0)}to{transform:translateX(840px)}}
+ @keyframes spin{from{transform:rotate(0)}to{transform:rotate(1080deg)}}
+ @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0" y="27" width="880" height="1.5" fill="url(#l)"/>
+<g class="roll"><g class="spin"><g class=""><circle cx="20" cy="15" r="12" fill="#fff"/><path d="M8,15 a12,12 0 0 1 24,0 z" fill="#E3263B"/><rect x="8" y="13.92" width="24" height="2.16" fill="#111"/><circle cx="20" cy="15" r="4.08" fill="#111"/><circle cx="20" cy="15" r="2.4000000000000004" fill="#fff"/><circle cx="20" cy="15" r="12" fill="none" stroke="#111" stroke-width="1.2000000000000002"/></g></g></g>
+</svg>

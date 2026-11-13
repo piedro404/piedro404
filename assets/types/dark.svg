@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="26" viewBox="0 0 79 26" role="img" aria-label="DARK type">
+<title>DARK</title>
+<rect width="79" height="26" rx="13" fill="#705746"/>
+<rect width="79" height="26" rx="13" fill="url(#g)"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<circle cx="13" cy="13" r="10" fill="#000" fill-opacity=".22"/>
+<svg x="6.5" y="6.5" width="13" height="13" viewBox="0 0 512 512">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M229.379 452.85C239.106 454.339 249.068 455.111 259.212 455.111C367.214 455.111 454.767 367.558 454.767 259.556C454.767 151.553 367.214 64 259.212 64C251.966 64 244.811 64.3941 237.77 65.1621C291.345 105.751 326.767 176.062 326.767 256C326.767 340.04 287.616 413.44 229.379 452.85ZM255.656 512C397.041 512 511.656 397.385 511.656 256C511.656 114.615 397.041 0 255.656 0C114.271 0 -0.34375 114.615 -0.34375 256C-0.34375 397.385 114.271 512 255.656 512Z" fill="white"/>
+</svg>
+<text x="30" y="17.3" fill="#fff" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing="1.2" style="paint-order:stroke" stroke="#000" stroke-opacity=".25" stroke-width="2">DARK</text>
+</svg>
