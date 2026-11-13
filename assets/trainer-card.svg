@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="360" viewBox="0 0 880 360" role="img" aria-label="piedro404 trainer card">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="392" viewBox="0 0 880 392" role="img" aria-label="piedro404 trainer card">
 <title>piedro404 — Trainer Card</title>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#05070F"/></linearGradient>
   <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#C99A06"/><stop offset="1" stop-color="#FFD84D"/></linearGradient>
   <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F5C518" stop-opacity=".22"/><stop offset="1" stop-color="#F5C518" stop-opacity="0"/></radialGradient>
   <clipPath id="clip"><circle cx="150" cy="160" r="82"/></clipPath>
-  <clipPath id="card"><rect x="1" y="1" width="878" height="358" rx="18"/></clipPath>
+  <clipPath id="card"><rect x="1" y="1" width="878" height="390" rx="18"/></clipPath>
 </defs>
 <style>
   text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif;fill:#C9D1D9}
@@ -32,12 +32,12 @@
   @keyframes wob{0%,80%,100%{transform:rotate(0)}84%{transform:rotate(-14deg)}88%{transform:rotate(12deg)}92%{transform:rotate(-6deg)}}
   @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<rect x="1" y="1" width="878" height="358" rx="18" fill="url(#bg)" stroke="#F5C518" stroke-opacity=".35"/>
+<rect x="1" y="1" width="878" height="390" rx="18" fill="url(#bg)" stroke="#F5C518" stroke-opacity=".35"/>
 <g clip-path="url(#card)" opacity=".05"><circle cx="820" cy="330" r="120" fill="none" stroke="#fff" stroke-width="18"/><rect x="690" y="321" width="260" height="18" fill="#fff"/><circle cx="820" cy="330" r="38" fill="none" stroke="#fff" stroke-width="18"/></g>
 <circle class="star" cx="320" cy="34" r="1.6" fill="#fff"/>
 <circle class="star" cx="520" cy="26" r="1.2" fill="#fff" style="animation-delay:1s"/>
 <circle class="star" cx="720" cy="56" r="1.4" fill="#fff" style="animation-delay:2s"/>
-<circle class="star" cx="56" cy="330" r="1.2" fill="#fff" style="animation-delay:.5s"/>
+<circle class="star" cx="40" cy="360" r="1.2" fill="#fff" style="animation-delay:.5s"/>
 <circle class="star" cx="560" cy="300" r="1.4" fill="#fff" style="animation-delay:1.6s"/>
 
 <circle cx="150" cy="160" r="125" fill="url(#moon)"/>
@@ -76,5 +76,7 @@
   <rect x="686" y="260" width="142" height="10" rx="5" fill="#1F2937"/><rect x="686" y="260" width="92" height="10" rx="5" fill="url(#bar)" class="bar" style="animation-delay:0.75s"/>
 
 <line x1="290" y1="308" x2="858" y2="308" stroke="#30363D"/>
-<text x="290" y="334" class="entry">“Hunts bottlenecks at night. Its rings glow when a slow endpoint becomes an async job.”</text>
+<text x="290" y="332" class="entry">“You said you had a dream… Make your wonderful dream a reality,</text>
+<text x="290" y="351" class="entry">and it will become your truth. If anyone can, it's you!”</text>
+<text x="858" y="374" text-anchor="end" style="font-size:11px;font-weight:700;fill:#8B949E;letter-spacing:1.5px">— N · POKÉMON BLACK &amp; WHITE</text>
 </svg>

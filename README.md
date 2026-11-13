@@ -1,7 +1,7 @@
 <!-- ============================================================
      🌙  piedro404 — Dark-type Back-End Developer
      Theme: Umbreon (#197) · night #050812 · ring #F5C518 · eyes #E3263B
-     Sprites: PokeAPI/sprites · 3D models: Cobblemon (via cobblemon.tools) · Type icons: duiker101/pokemon-type-svg-icons
+     Sprites: PokeAPI/sprites · Type icons: duiker101/pokemon-type-svg-icons
      Pokémon © Nintendo / Game Freak / The Pokémon Company — fan tribute.
      ============================================================ -->
 
@@ -34,9 +34,9 @@
 <table>
   <tr>
     <td width="150" align="center">
-      <img src="./assets/cobblemon/umbreon.png" width="110" alt="Umbreon (Cobblemon model)"><br>
-      <img src="./assets/cobblemon/eevee.png" width="44" alt="Eevee (Cobblemon model)">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/197.gif" height="40" alt="Shiny Umbreon">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/197.gif" height="88" alt="Umbreon"><br><br>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/133.gif" height="44" alt="Eevee">&nbsp;
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/197.gif" height="48" alt="Shiny Umbreon"><br>
       <br><sub><b>No. 404 · PIEDRO</b></sub><br>
       <img src="./assets/types/dark.svg" height="20" alt="Dark">
     </td>
@@ -173,7 +173,7 @@
   <tr>
     <td colspan="2">
       <img align="right" src="./assets/seediq-pipeline.gif" width="230" alt="SeedIQ computer-vision pipeline: original, grayscale, blur, threshold, morphology, erosion, detected grains">
-      <img src="./assets/cobblemon/bulbasaur.png" width="64" align="left" alt="Bulbasaur, the Seed Pokémon (Cobblemon model)">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif" height="60" align="left" hspace="14" vspace="10" alt="Bulbasaur, the Seed Pokémon">
       <sub><b>LEAD · THE SEED POKÉMON</b></sub><br>
       <b><a href="https://github.com/CyberNomads404/SeedIQ">SeedIQ</a></b><br>
       <img src="./assets/types/grass.svg" height="18" alt="Grass"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
@@ -188,14 +188,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img align="right" src="./assets/cobblemon/porygon.png" width="76" alt="Porygon, the Virtual Pokémon made of code (Cobblemon model)">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/137.gif" height="60" alt="Porygon, the Virtual Pokémon made of code">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/dino-neural-ts">Dino Neural</a></b><br>
       <img src="./assets/types/rock.svg" height="18" alt="Rock"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>TypeScript · neural network from scratch</sub>
       <p>A neural network learning to play the runner-dino game on its own: entities, physics and the brain, all hand-written in TypeScript.</p>
     </td>
     <td width="50%" valign="top">
-      <img align="right" src="./assets/cobblemon/gengar.png" width="76" alt="Gengar, hides in the shadows (Cobblemon model)">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" height="60" alt="Gengar, hides in the shadows">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/hide-and-seek-neural-ts">Hide &amp; Seek Neural</a></b><br>
       <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>TypeScript · Vite · neural agents</sub>
@@ -204,14 +204,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img align="right" src="./assets/cobblemon/alakazam.png" width="76" alt="Alakazam, IQ of 5000 (Cobblemon model)">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/65.gif" height="60" alt="Alakazam, IQ of 5000">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/resolucoes-de-problemas">resolucoes-de-problemas</a></b><br>
       <img src="./assets/types/fighting.svg" height="18" alt="Fighting"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>Python · Beecrowd · Codeforces</sub>
       <p>My competitive-programming training ground: the solutions behind four years of ICPC Honorable Mentions.</p>
     </td>
     <td width="50%" valign="top">
-      <img align="right" src="./assets/cobblemon/pikachu.png" width="76" alt="Pikachu (Cobblemon model)">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif" height="52" alt="Pikachu">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/vecomigo-backend">VeComigo</a></b><br>
       <img src="./assets/types/electric.svg" height="18" alt="Electric"><br>
       <sub>Node · TypeScript · Socket.IO · React</sub>
@@ -225,11 +225,11 @@
   <br>
   <table>
     <tr>
-      <td align="center" width="80"><img src="./assets/cobblemon/ekans.png" width="56" alt="Ekans"></td>
+      <td align="center" width="80"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/23.gif" height="44" alt="Ekans"></td>
       <td><b><a href="https://github.com/piedro404/flask-structure">flask-structure</a></b> <img src="./assets/types/grass.svg" height="16" alt="Grass"><br><sub>Published on <a href="https://pypi.org/project/flask-structure/">PyPI</a>: scaffolds a ready-to-go Flask API structure in one command.</sub></td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets/cobblemon/combee.png" width="56" alt="Combee"></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/415.gif" height="44" alt="Combee"></td>
       <td><b><a href="https://github.com/piedro404/bee-stats">Bee Stats</a></b> <img src="./assets/types/bug.svg" height="16" alt="Bug"><br><sub>Puppeteer + Express service that turns a Beecrowd profile into an embeddable SVG card.</sub></td>
     </tr>
     <tr>
