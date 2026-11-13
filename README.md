@@ -1,7 +1,7 @@
 <!-- ============================================================
      🌙  piedro404 — Dark-type Back-End Developer
      Theme: Umbreon (#197) · night #050812 · ring #F5C518 · eyes #E3263B
-     Sprites: PokeAPI/sprites · Type icons: duiker101/pokemon-type-svg-icons
+     Sprites: PokeAPI/sprites · PMD Sprite Collab (CC BY-NC 4.0) · Type icons: duiker101/pokemon-type-svg-icons
      Pokémon © Nintendo / Game Freak / The Pokémon Company — fan tribute.
      ============================================================ -->
 
@@ -306,12 +306,9 @@
 <br>
 
 <p align="center">
-  <img src="./assets/route-404.gif" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee under a full moon, fireflies and shooting stars">
-  <br><sub><i>Route 404 · night shift</i></sub>
-</p>
-
-<p align="center">
-  <img src="./assets/footer.gif" alt="Umbreon watching the moon on a hill with fireflies — Umbreon used Moonlight! Thanks for visiting, trainer." width="100%">
+  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee bounding behind, a Murkrow crosses the full moon, fireflies and shooting stars">
+  <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight! Thanks for visiting, trainer.</i></sub>
+  <br><sub><sub>Walk sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
 </p>
 
 <p align="center">
