@@ -3,39 +3,37 @@ name: generate animation
 on:
   # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
-  
+    - cron: "0 */24 * * *"
+
   # allows to manually run the job at any time
   workflow_dispatch:
-  
-  # run on every push on the master branch
+
+  # run on every push on the main branch
   push:
     branches:
-    - master
-    
-  
+      - main
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      # generates a snake game from the contributions graph, in the classic palette and in Umbreon colors
+      - name: generate contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: piedro404
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+            dist/umbreon-snake.svg?color_snake=#E3263B&color_dots=#ebedf0,#fde9a3,#f9d75a,#e0b20f,#9a7a06
+            dist/umbreon-snake-dark.svg?palette=github-dark&color_snake=#E3263B&color_dots=#161b22,#3b3314,#6e5b12,#b38f10,#F5C518
+
+      # push the content of <build_dir> to the output branch
+      - name: push snakes to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
