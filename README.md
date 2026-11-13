@@ -24,12 +24,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/trainer-card.svg" alt="Trainer card: Piedro, No. 404, Dark / Back-End type, Lv. 50 Mid-Level. Ability: Synchronize. Hidden ability: Inner Focus." width="100%">
-</p>
-
-<p align="center">
-  <img src="./assets/route-404.gif" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee under a full moon, fireflies and shooting stars">
-  <br><sub><i>Route 404 · night shift</i></sub>
+  <img src="./assets/trainer-card.svg" alt="Trainer card: Piedro, No. 404, Dark / Back-End type, Lv. 22 Mid-Level. Ability: Synchronize. Hidden ability: Inner Focus." width="100%">
 </p>
 
 <p align="center"><img src="./assets/dividers/roll.svg" width="100%" alt=""></p>
@@ -176,13 +171,14 @@
 
 <table>
   <tr>
-    <td colspan="2">
-      <img align="right" src="./assets/seediq-pipeline.gif" width="230" alt="SeedIQ computer-vision pipeline: original, grayscale, blur, threshold, morphology, erosion, detected grains">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif" height="60" align="left" hspace="14" vspace="10" alt="Bulbasaur, the Seed Pokémon">
+    <td width="34%" align="center" valign="middle">
+      <img src="./assets/seediq-pipeline.gif" width="230" alt="SeedIQ computer-vision pipeline: original, grayscale, blur, threshold, morphology, erosion, detected grains">
+    </td>
+    <td width="66%" valign="top">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif" height="60" alt="Bulbasaur, the Seed Pokémon">
       <sub><b>LEAD · THE SEED POKÉMON</b></sub><br>
-      <b><a href="https://github.com/CyberNomads404/SeedIQ">SeedIQ</a></b><br>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png" width="24" align="center"> <b><a href="https://github.com/CyberNomads404/SeedIQ">SeedIQ</a></b><br>
       <img src="./assets/types/grass.svg" height="18" alt="Grass"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
-      <br clear="left">
       <p>A full ecosystem for <b>grain classification by image</b> (corn, soy…). A field operator snaps a photo in the app, the central API queues a job, and a computer-vision service counts good, burnt, green and small grains in seconds.</p>
       <table>
         <tr><td><a href="https://github.com/CyberNomads404/SeedIQ"><b>Panel + Central API</b></a></td><td><img src="https://skillicons.dev/icons?i=laravel,react,mysql,docker&theme=dark" height="26" alt="Laravel, React, MySQL, Docker"></td></tr>
@@ -308,6 +304,11 @@
 </p>
 
 <br>
+
+<p align="center">
+  <img src="./assets/route-404.gif" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee under a full moon, fireflies and shooting stars">
+  <br><sub><i>Route 404 · night shift</i></sub>
+</p>
 
 <p align="center">
   <img src="./assets/footer.gif" alt="Umbreon watching the moon on a hill with fireflies — Umbreon used Moonlight! Thanks for visiting, trainer." width="100%">
