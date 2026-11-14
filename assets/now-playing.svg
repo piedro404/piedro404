@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="112" viewBox="0 0 560 112" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <title>Now playing: Pokémon Lofi (Gen 1-4), a Spotify playlist. Click to play.</title>
+  <rect x="1" y="1" width="558" height="110" rx="14" fill="#0B1020" stroke="#F5C518" stroke-width="1.5"/>
+
+  <!-- cover, pixelated -->
+  <rect x="15" y="15" width="82" height="82" rx="6" fill="#141B33"/>
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQUExURSkJOjESRY23s2inmG2LiY6RizBamVJub3BwblFQUC8oXWRtkKqsn15fV4tyaEc+RtHp5Vmm4zFy6a7FtprCqKyWkEZt0mnE7ZrOYmzHLlCRWDiH+pmgb9LHrpd/gj6UhmCdaunGlNK3md7JnXKobjCp4KjY3IK04DhgTdqVZG2jKYidKG51KmmTWqZGPNecaScuKSoAAAAHdElNRQfqCw4FITBAiTPCAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTExLTE0VDA1OjMzOjQ4KzAwOjAwRyAuJAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0xMS0xNFQwNTozMzo0OCswMDowMDZ9lpgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMTEtMTRUMDU6MzM6NDgrMDA6MDBhaLdHAAAAEHRFWHRpY2M6Y29weXJpZ2h0AEZCs7Xj3wAAABJ0RVh0aWNjOmRlc2NyaXB0aW9uAGMy+JrBywAAA8dJREFUaN7dmdlWYjEQRWmkG5kUZZKhhUZBEGn+/+96e3ffWmHQ5as5D1khqXuOK1WVVGKlkuDHGSrHYKRarV5dXdVqNdrqJTD+swA2tJUsBH4do16vX19fNxqNZrN5MoUAU/UCtQIXZeBttVry5CHQPEarAHTNM2CMsALYuMrnAu12G+pOp3Nzc5OHQITg7e0tc91u9+7u7v7+ntZ1TyMVaqNQAeh6vV6/3++VoK8AGAwG2QjAwhIPh8PRaITFw8PDeDyeTCZoMJhq4AOdZKT2zoA2vLDjgGwE3Ncgmk6nZKZ2s9lsXIDBVKNRgihkrX8XCPbfJZCB4fHxMQ8Bk3lagEWnJUZpYccZhqxprECnAKsMRTCm7AAHYJCHgItLxk4TQDqfz8MHAAO9RXQuFgsFiMI/CeBdLpd0np6ezPb3ze77C4gTgXEJuPRKKgDwBALSpQJIOkgnbwHyGWoEnp+fT3xgwaEAa21QwgivpLRk+KDA/6oiCwGW1bVerVZmMlCDDoeEpgiwrMSotQV0cpnbTLVLKIBNHgKeB+v1GiIYyWHEXl5eODv1AQdkFPSQ6gbj1SMhGOmoCpjdbDY5CVhVEKCQ8g0hyBYfVYV7Iq0OMEzhMkwNUE9KTwJvOJkJCDJ2WEDq89qU+tVTk47RGYeogxpA7XgeAlGexkJ7nwlqO474GS0lhRucix4a2+02/IQb8hMQTp+8JjDC+lq1u9Cwp4Up8AZotnujzkDg9fV1t9t5G+mWWB+DCnVXAGPCd3UGBtkobU+mMhB4e3tTwBvyR2B9FVDyooYCnishlocAILCYuEgdnuAExZIvHeR7jtVRgtQfTPl5HgJsW3HL/USAoxRjag4XGiL/Jrg8OJUJATt5CJCo+/3elD6Bg7b8HRhTsMquMzgS/ibgMCDcMUCAAuW9qshCILAvkY7Y8TN+chjokiCN8iJVwiXZCLDNsbgcb/tPQRpDiiXBSqRi76npE3CU7FIhQD8bAX7MCvDl7AsgprEkWOGdF/CJ3EuOjyz0fQLOQ0AfaLQsEQ8o3HP42S/g5Qf40DCZTPCNQcnnOgA2vHI4HMImAwGrcFpGg5cRPpA0eAGMjmwKmL0EK1M+9fp/BTqLEhkIHAoYgi56vOS6qXlq0pqccE3OwLqb8DDCQ4fBnAQ457yQMOejCT4IpXgssH41jUNGx4QS/dgXtMlAYHsMn97SkAX8jPFY4hBQQweoETIgP4GAvjnvm8NpjEqnkhopchU4fAycsfkU8hrKH/rgmwucxGgKMnzzBYRjoPr+Av8ACMgL1+KPlywAAAAASUVORK5CYII=" x="18" y="18" width="76" height="76" style="image-rendering:pixelated"/>
+
+  <!-- labels -->
+  <g>
+    <rect x="114" y="18" width="7" height="7" fill="#1DB954"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></rect>
+    <text x="128" y="25" font-size="10" font-weight="700" fill="#1DB954" letter-spacing="1.5">NOW PLAYING ON ROUTE 404</text>
+  </g>
+  <text x="114" y="50" font-size="19" font-weight="700" fill="#FFFFFF">Pokémon Lofi (Gen 1-4)</text>
+  <text x="114" y="67" font-size="11" fill="#8B949E">Spotify playlist · lofi beats for the night shift</text>
+
+  <!-- equalizer -->
+  <g fill="#F5C518">
+    <rect x="400" y="34" width="4" height="16"><animate attributeName="height" values="4;16;8;14;4" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="46;34;42;36;46" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="407" y="34" width="4" height="16"><animate attributeName="height" values="12;4;16;6;12" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="38;46;34;44;38" dur="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="414" y="34" width="4" height="16"><animate attributeName="height" values="8;14;4;16;8" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="42;36;46;34;42" dur="1.3s" repeatCount="indefinite"/></rect>
+    <rect x="421" y="34" width="4" height="16"><animate attributeName="height" values="16;6;12;4;16" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="34;44;38;46;34" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- progress -->
+  <text x="114" y="91" font-size="9" fill="#8B949E">0:00</text>
+  <rect x="142" y="85" width="290" height="5" rx="2.5" fill="#1E2547"/>
+  <rect x="142" y="85" width="0" height="5" rx="2.5" fill="#F5C518"><animate attributeName="width" values="0;290" dur="40s" repeatCount="indefinite"/></rect>
+  <circle cx="142" cy="87.5" r="5" fill="#FFFFFF"><animate attributeName="cx" values="142;432" dur="40s" repeatCount="indefinite"/></circle>
+  <text x="440" y="91" font-size="9" fill="#8B949E">∞</text>
+
+  <!-- play button -->
+  <circle cx="505" cy="56" r="26" fill="none" stroke="#1DB954" stroke-width="2">
+    <animate attributeName="r" values="26;38" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".9;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="505" cy="56" r="26" fill="#1DB954"/>
+  <path d="M497 43 L517 56 L497 69 Z" fill="#0B1020"/>
+</svg>

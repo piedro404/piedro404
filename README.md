@@ -172,9 +172,9 @@
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif" height="60" alt="Delibird, the Delivery Pokémon">
-      <sub><b>ON DUTY AT VOKERÊ · THE DELIVERY POKÉMON</b></sub><br>
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dowsing-machine.png" width="24" align="center"> <b>Real-time delivery tracking</b> <sub>· company project, closed source</sub><br>
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif" height="64" alt="Dragonite, the mail carrier">
+      <sub><b>ON DUTY AT VOKERÊ · DRAGONITE, THE MAIL CARRIER</b></sub><br>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-mail.png" width="24" align="center"> <b>Real-time delivery tracking</b> <sub>· company project, closed source</sub><br>
       <img src="./assets/types/electric.svg" height="18" alt="Electric"> <img src="./assets/types/dark.svg" height="18" alt="Dark"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
       <p>After ordering, a customer wants to know one thing: <i>where is my courier?</i> The driver app used to stop sending its location when minimized, couriers "teleported" on the map, and every GPS point was an HTTP write to the main API. On an architecture designed by my tech lead, I built the fix <b>end to end across five projects</b>: a new Node service that streams live positions over Socket.IO and Redis, with no paid real-time service.</p>
       <p align="center"><img src="./assets/tracking-flow.svg" width="100%" alt="Architecture: the Flutter driver app sends GPS points in batches to vk-tracking (Node, TypeScript, Fastify, zod), which filters noise and keeps position and trail in Redis; the client app (React Native) and the panel (React) follow live through Socket.IO rooms per order and per city; the Laravel API publishes order events through Redis pub/sub, sends the 'your order is arriving' push through OneSignal and saves the simplified trail as an encoded polyline"></p>
@@ -318,9 +318,23 @@
 <br>
 
 <p align="center">
+  <a href="https://open.spotify.com/playlist/55gxSW0WmYKTUDSqu43Awu"><img src="./assets/now-playing.svg" width="560" alt="Now playing on Route 404: Pokémon Lofi (Gen 1-4), a Spotify playlist. Click to play."></a><br>
+  <sub><b>SOUNDTRACK FOR THE WALK</b> · <kbd>Ctrl</kbd> + click the player to open it in a new tab, then keep scrolling</sub>
+</p>
+
+<p align="center">
   <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene in three acts on Route 404. Umbreon walks with Eevee following the glow of its rings. First, a Gastly jumps out and scares Eevee, until Umbreon's rings flash and the Gastly flees. Then they stop at a moonlit lake, with Umbreon right under the moon, and watch it together while Volbeat and Illumise dance over the water, a Magikarp leaps and a Lotad drifts by; they share a look, a nod and a happy tail wag. Next, Eevee yawns and both nap under the Route 404 sign. Then an Oran Berry drops onto the path and Umbreon nudges it over to Eevee, who happily eats it. Last, they find three Clefairy dancing around a glowing Moon Stone and Eevee joins the dance, spinning, while Umbreon's rings pulse to the beat. Finally, a Zoroark and a Zorua walk up and, in a puff of illusion smoke, turn into a copy of Umbreon and Eevee; the copies mirror every move, the two Eevees spin together, then the illusion breaks and the new friends wave goodbye. Along the way: Hoothoot, Noctowl and Murkrow on the sign, Misdreavus, Haunter, Duskull and Shuppet floating by, Oddish, Spinarak and Kricketot in the grass, Zubat, Murkrow, Noctowl and Noibat crossing the sky">
-  <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight! Thanks for visiting, trainer.</i></sub>
+  <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight!</i></sub>
   <br><sub><sub>Sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/friend-ball.png" width="36" alt="Friend Ball"><br>
+  <b>Thanks for walking Route 404 with me, trainer!</b><br>
+  <sub>Eevee only evolves into Umbreon after leveling up with high friendship, at night.<br>
+  I hope this is the start of ours: say hi on <a href="https://www.linkedin.com/in/pedrohenrique404/">LinkedIn</a>, send a message, or just follow along. See you on the next route!</sub>
 </p>
 
 <p align="center">
