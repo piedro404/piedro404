@@ -306,7 +306,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee bounding behind. Each loop brings different night visitors: Hoothoot, Noctowl or Murkrow perched on the sign, Gastly, Misdreavus or Haunter floating by, Oddish or Spinarak in the grass, and Murkrow or Hoothoot crossing the full moon">
+  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee following the glow of its rings. They stop at a moonlit lake to watch the moon under a meteor shower, share a look and a nod, then head back down the road. Each loop brings different night visitors: Hoothoot, Noctowl or Murkrow perched on the sign, Gastly, Misdreavus or Haunter floating by, Oddish or Spinarak in the grass, and Murkrow or Hoothoot crossing the full moon">
   <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight! Thanks for visiting, trainer.</i></sub>
   <br><sub><sub>Walk sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
 </p>
