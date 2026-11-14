@@ -306,9 +306,9 @@
 <br>
 
 <p align="center">
-  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene: Umbreon walks down Route 404 with Eevee following the glow of its rings. They stop at a moonlit lake to watch the moon under a meteor shower, share a look and a nod, then head back down the road. Each loop brings different night visitors: Hoothoot, Noctowl or Murkrow perched on the sign, Gastly, Misdreavus or Haunter floating by, Oddish or Spinarak in the grass, and Murkrow or Hoothoot crossing the full moon">
+  <img src="./assets/route-404.webp" width="100%" alt="Pixel-art night scene in three acts on Route 404. Umbreon walks with Eevee following the glow of its rings. First, a Gastly jumps out and scares Eevee, until Umbreon's rings flash and the Gastly flees. Then they stop at a moonlit lake, with Umbreon right under the moon, and watch it together while Volbeat and Illumise dance over the water, a Magikarp leaps and a Lotad drifts by; they share a look, a nod and a happy tail wag. Finally Eevee yawns and both nap under the Route 404 sign before heading on. Along the way: Hoothoot, Noctowl and Murkrow on the sign, Misdreavus and Haunter floating by, Oddish and Spinarak in the grass, Zubat and Murkrow crossing the sky">
   <br><sub><b>Route 404</b> · <i>night shift. Umbreon used Moonlight! Thanks for visiting, trainer.</i></sub>
-  <br><sub><sub>Walk sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
+  <br><sub><sub>Sprites: <a href="https://sprites.pmdcollab.org/">PMD Sprite Collab</a> (CHUNSOFT &amp; PMDCollab contributors, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)</sub></sub>
 </p>
 
 <p align="center">
