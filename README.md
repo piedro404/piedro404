@@ -34,8 +34,8 @@
 <table>
   <tr>
     <td width="150" align="center">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/197.gif" height="88" alt="Umbreon"><br><br>
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/133.gif" height="44" alt="Eevee">&nbsp;
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/197.gif" height="88" alt="Umbreon"><br><br>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" height="44" alt="Eevee">&nbsp;
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/197.gif" height="48" alt="Shiny Umbreon"><br>
       <br><sub><b>No. 404 · PIEDRO</b></sub><br>
       <img src="./assets/types/dark.svg" height="20" alt="Dark">
@@ -171,11 +171,23 @@
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif" height="60" alt="Delibird, the Delivery Pokémon">
+      <sub><b>ON DUTY AT VOKERÊ · THE DELIVERY POKÉMON</b></sub><br>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dowsing-machine.png" width="24" align="center"> <b>Real-time delivery tracking</b> <sub>· company project, closed source</sub><br>
+      <img src="./assets/types/electric.svg" height="18" alt="Electric"> <img src="./assets/types/dark.svg" height="18" alt="Dark"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
+      <p>After ordering, a customer wants to know one thing: <i>where is my courier?</i> The driver app used to stop sending its location when minimized, couriers "teleported" on the map, and every GPS point was an HTTP write to the main API. On an architecture designed by my tech lead, I built the fix <b>end to end across five projects</b>: a new Node service that streams live positions over Socket.IO and Redis, with no paid real-time service.</p>
+      <p align="center"><img src="./assets/tracking-flow.svg" width="100%" alt="Architecture: the Flutter driver app sends GPS points in batches to vk-tracking (Node, TypeScript, Fastify, zod), which filters noise and keeps position and trail in Redis; the client app (React Native) and the panel (React) follow live through Socket.IO rooms per order and per city; the Laravel API publishes order events through Redis pub/sub, sends the 'your order is arriving' push through OneSignal and saves the simplified trail as an encoded polyline"></p>
+      <img src="https://skillicons.dev/icons?i=nodejs,ts,redis,laravel,flutter,react,mysql&theme=dark" height="30" alt="Node.js, TypeScript, Redis, Laravel, Flutter, React, MySQL">
+      &nbsp;<sub>Noise filter with haversine · trail simplified with Ramer-Douglas-Peucker · <b>in testing, rolling out soon</b></sub>
+    </td>
+  </tr>
+  <tr>
     <td width="34%" align="center" valign="middle">
       <img src="./assets/seediq-pipeline.gif" width="230" alt="SeedIQ computer-vision pipeline: original, grayscale, blur, threshold, morphology, erosion, detected grains">
     </td>
     <td width="66%" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif" height="60" alt="Bulbasaur, the Seed Pokémon">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" height="60" alt="Bulbasaur, the Seed Pokémon">
       <sub><b>LEAD · THE SEED POKÉMON</b></sub><br>
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png" width="24" align="center"> <b><a href="https://github.com/CyberNomads404/SeedIQ">SeedIQ</a></b><br>
       <img src="./assets/types/grass.svg" height="18" alt="Grass"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"> <img src="./assets/types/steel.svg" height="18" alt="Steel">
@@ -189,14 +201,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/137.gif" height="60" alt="Porygon, the Virtual Pokémon made of code">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" height="60" alt="Porygon, the Virtual Pokémon made of code">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/dino-neural-ts">Dino Neural</a></b><br>
       <img src="./assets/types/rock.svg" height="18" alt="Rock"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>TypeScript · neural network from scratch</sub>
       <p>A neural network learning to play the runner-dino game on its own: entities, physics and the brain, all hand-written in TypeScript.</p>
     </td>
     <td width="50%" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" height="60" alt="Gengar, hides in the shadows">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif" height="60" alt="Gengar, hides in the shadows">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/hide-and-seek-neural-ts">Hide &amp; Seek Neural</a></b><br>
       <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>TypeScript · Vite · neural agents</sub>
@@ -205,14 +217,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/65.gif" height="60" alt="Alakazam, IQ of 5000">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif" height="60" alt="Alakazam, IQ of 5000">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/resolucoes-de-problemas">resolucoes-de-problemas</a></b><br>
       <img src="./assets/types/fighting.svg" height="18" alt="Fighting"> <img src="./assets/types/psychic.svg" height="18" alt="Psychic"><br>
       <sub>Python · Beecrowd · Codeforces</sub>
       <p>My competitive-programming training ground: the solutions behind four years of ICPC Honorable Mentions.</p>
     </td>
     <td width="50%" valign="top">
-      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif" height="52" alt="Pikachu">
+      <img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" height="52" alt="Pikachu">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="24" align="center"> <b><a href="https://github.com/piedro404/vecomigo-backend">VeComigo</a></b><br>
       <img src="./assets/types/electric.svg" height="18" alt="Electric"><br>
       <sub>Node · TypeScript · Socket.IO · React</sub>
@@ -226,11 +238,11 @@
   <br>
   <table>
     <tr>
-      <td align="center" width="80"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/23.gif" height="44" alt="Ekans"></td>
+      <td align="center" width="80"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif" height="44" alt="Ekans"></td>
       <td><b><a href="https://github.com/piedro404/flask-structure">flask-structure</a></b> <img src="./assets/types/grass.svg" height="16" alt="Grass"><br><sub>Published on <a href="https://pypi.org/project/flask-structure/">PyPI</a>: scaffolds a ready-to-go Flask API structure in one command.</sub></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/415.gif" height="44" alt="Combee"></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/415.gif" height="44" alt="Combee"></td>
       <td><b><a href="https://github.com/piedro404/bee-stats">Bee Stats</a></b> <img src="./assets/types/bug.svg" height="16" alt="Bug"><br><sub>Puppeteer + Express service that turns a Beecrowd profile into an embeddable SVG card.</sub></td>
     </tr>
     <tr>

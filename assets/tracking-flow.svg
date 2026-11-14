@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" shape-rendering="crispEdges" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <title>Real-time delivery tracking: how the five projects talk</title>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#050812"/>
+      <rect x="0" y="0" width="1" height="1" fill="#1A2140"/>
+    </pattern>
+  </defs>
+  <rect width="860" height="300" fill="url(#grid)"/>
+  <rect x="1" y="1" width="858" height="298" fill="none" stroke="#1E2547" stroke-width="2"/>
+
+  <!-- wires (orthogonal, pixel style) -->
+  <g fill="none" stroke-width="2">
+    <path id="w1" d="M190 150 H240 V86 H290" stroke="#7DD3FC"/>
+    <path id="w2" d="M510 62 H640" stroke="#E3263B"/>
+    <path id="w3" d="M510 100 H530 V164 H640" stroke="#E3263B"/>
+    <path id="w4" d="M330 130 V190" stroke="#F5C518" stroke-dasharray="6 4"/>
+    <path id="w5" d="M410 225 H392" stroke="#F5C518" stroke-dasharray="6 4"/>
+    <path id="w6" d="M470 130 V190" stroke="#7DD3FC"/>
+    <path id="w7" d="M510 240 H600 V248 H640" stroke="#FB923C"/>
+  </g>
+
+  <!-- moving packets -->
+  <g>
+    <rect width="6" height="6" x="-3" y="-3" fill="#7DD3FC"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#7DD3FC"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#FF5A6E"><animateMotion dur="1.6s" begin="0.6s" repeatCount="indefinite"><mpath href="#w2"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#FF5A6E"><animateMotion dur="2s" begin="0.9s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#F5C518"><animateMotion dur="1.2s" begin="0.3s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w4"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#F5C518"><animateMotion dur="1.4s" repeatCount="indefinite"><mpath href="#w5"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#7DD3FC"><animateMotion dur="3s" begin="1s" repeatCount="indefinite"><mpath href="#w6"/></animateMotion></rect>
+    <rect width="6" height="6" x="-3" y="-3" fill="#FB923C"><animateMotion dur="4s" begin="2s" repeatCount="indefinite"><mpath href="#w7"/></animateMotion></rect>
+  </g>
+
+  <!-- wire labels -->
+  <g font-size="10" fill="#8A93C8">
+    <text x="196" y="170">points</text><text x="196" y="182">in batches</text>
+    <text x="528" y="54" fill="#FF8A9A">order:location</text>
+    <text x="540" y="156" fill="#FF8A9A">fleet:location</text>
+    <text x="338" y="158" fill="#F5D45A">pos</text><text x="338" y="170" fill="#F5D45A">trail</text>
+    <text x="476" y="166">nearby</text>
+    <text x="528" y="232" fill="#FDBA74">push</text>
+  </g>
+
+  <!-- boxes -->
+  <g stroke-width="2">
+    <!-- driver app -->
+    <rect x="20" y="104" width="170" height="92" fill="#0B1020" stroke="#7DD3FC"/>
+    <rect x="20" y="104" width="170" height="18" fill="#7DD3FC"/>
+    <!-- vk-tracking -->
+    <rect x="290" y="30" width="220" height="100" fill="#0B1020" stroke="#F5C518"/>
+    <rect x="290" y="30" width="220" height="18" fill="#F5C518"/>
+    <!-- redis -->
+    <rect x="290" y="190" width="100" height="78" fill="#0B1020" stroke="#E3263B"/>
+    <rect x="290" y="190" width="100" height="18" fill="#E3263B"/>
+    <!-- api -->
+    <rect x="410" y="190" width="100" height="78" fill="#0B1020" stroke="#C4B5FD"/>
+    <rect x="410" y="190" width="100" height="18" fill="#C4B5FD"/>
+    <!-- client -->
+    <rect x="640" y="30" width="200" height="62" fill="#0B1020" stroke="#F9A8D4"/>
+    <rect x="640" y="30" width="200" height="18" fill="#F9A8D4"/>
+    <!-- panel -->
+    <rect x="640" y="132" width="200" height="62" fill="#0B1020" stroke="#7DD3FC"/>
+    <rect x="640" y="132" width="200" height="18" fill="#7DD3FC"/>
+    <!-- push -->
+    <rect x="640" y="226" width="200" height="44" fill="#0B1020" stroke="#FB923C"/>
+    <rect x="640" y="226" width="200" height="18" fill="#FB923C"/>
+  </g>
+
+  <g font-size="11" font-weight="700" fill="#050812">
+    <text x="28" y="117">DRIVER APP · Flutter</text>
+    <text x="298" y="43">VK-TRACKING · NEW SERVICE</text>
+    <text x="298" y="203">REDIS</text>
+    <text x="418" y="203">API · Laravel</text>
+    <text x="648" y="43">CLIENT APP · React Native</text>
+    <text x="648" y="145">PANEL · React</text>
+    <text x="648" y="239">PUSH · OneSignal</text>
+  </g>
+
+  <g font-size="10" fill="#C9CFF0">
+    <text x="28" y="140">▪ foreground service:</text>
+    <text x="28" y="152">  sends w/ screen locked</text>
+    <text x="28" y="168">▪ offline queue on device</text>
+    <text x="28" y="184">▪ server-set send interval</text>
+
+    <text x="298" y="64">Node · TypeScript · Fastify · zod</text>
+    <text x="298" y="80">▪ validates the batches</text>
+    <text x="298" y="94">▪ drops GPS noise (haversine)</text>
+    <text x="298" y="108">▪ Socket.IO rooms per order / city</text>
+    <text x="298" y="122">▪ detects "arriving" by distance</text>
+
+    <text x="298" y="224">hash · position</text>
+    <text x="298" y="238">set · orders</text>
+    <text x="298" y="252">zset · trail</text>
+    <text x="298" y="264">pub/sub</text>
+
+    <text x="418" y="224">JWT per role</text>
+    <text x="418" y="238">afterCommit</text>
+    <text x="418" y="252">→ Redis events</text>
+    <text x="418" y="264">trail polyline</text>
+
+    <text x="648" y="64">▪ joins its own order room</text>
+    <text x="648" y="80">▪ courier moves live on the map</text>
+
+    <text x="648" y="166">▪ city room: whole fleet live</text>
+    <text x="648" y="182">▪ saved route per order</text>
+
+    <text x="648" y="262">"Your order is arriving!"</text>
+  </g>
+
+  <g font-size="9" fill="#5A6394">
+    <text x="20" y="22">HOW THE FIVE PROJECTS TALK</text>
+    <text x="20" y="290">trail simplified with Ramer-Douglas-Peucker · saved as encoded polyline</text>
+  </g>
+</svg>
